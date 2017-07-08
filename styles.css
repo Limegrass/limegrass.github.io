@@ -1,0 +1,26 @@
+body {
+	color:white;
+	background-color:#1a1a1a;
+	text-align:center
+}
+a:link {
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:visited{
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+img.linkIcon{
+	width:128px;
+	height:128px;
+	border=0px;
+}
+
+area.circleIcon{
+	shape:circle;
+	coords:"64,64,64";
+}
+
