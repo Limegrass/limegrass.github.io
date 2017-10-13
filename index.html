@@ -1,62 +1,161 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-	<!-- Page Title -->
-	<head>
-		<title>ニート</title>
-		<meta charset="UTF-8">
-		<meta name="description" content="James Ni's Personal Site">
-		<meta name="keywords" content="James Ni,GitHub">
-		<meta name="author" content="James Ni">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <head>
+        <title>ニート</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="James Ni's Personal Site">
+        <meta name="keywords" content="James Ni,GitHub">
+        <meta name="author" content="James Ni">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<![endif]-->
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="styles.css">
-	</head>
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Bootstrap CSS -->
+        <!-- Index CSS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            ></script>
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/homepage.css">
+    </head>
 
-	<!-- Page Body -->
-	<body title="i'm the worst">
+    <!-- Page Body -->
+    <body title="i'm the worst">
+        <!-- Navigation -->
+        <ul class="nav nav-tabs container-fluid justify-content-md-center">
+            <li class="nav-item">
+                <a id="home-button" class="nav-link active"
+                    href="https://limegrass.github.io">
+                    James Ni
+                </a>
+            </li>
 
-		<hr>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <b>Artificial Intelligence</b>
+                </a>
+                <div class="dropdown-menu">
 
-		<map name="github_map">
-			<area shape="circle" coords="64,64,64" 
-				href="https://github.com/Limegrass" 
-				alt="GitHub.com/Limegrass" 
-				title="sorry for editting colors">
-		</map>
-		<img src="linkIcons/github.png" class="linkIcon" 
-			usemap="#github_map" alt="GitHub.com/Limegrass">
+                    <a class="dropdown-item"
+                        href="https://github.com/Limegrass/8-Puzzle-Solver">
+                        8 Puzzle (Java, No write-up included yet)
+                    </a>
 
-		<map name="lastfm_map">
-			<area shape="circle" coords="64,64,64" 
-				href="https://last.fm/user/Multipoke" 
-				alt="Last.fm/user/Multipoke">
-		</map>
-		<img src="linkIcons/lastfm.png" class="linkIcon" 
-			usemap="#lastfm_map" alt="Last.fm/user/Multipoke">
+                    <a class="dropdown-item"
+                        href="https://github.com/Limegrass/Lemonade-Stand-Game">
+                        Lemonade Stand (Java, No write-up included yet)
+                    </a>
 
-		<map name="steam_map">
-			<area shape="circle" coords="64,64,64" 
-				href="http://steamcommunity.com/id/Multipoke/" 
-				alt="steamcommunity.com/id/Multipoke/">
-		</map>
-		<img src="linkIcons/steam.png" class="linkIcon" 
-			usemap="#steam_map" alt="steamcommunity.com/id/Multipoke/">
+                    <a class="dropdown-item"
+                        href="https://github.com/Limegrass/Vehicular-Combat/blob/master/Project_4__Vehicle_Path_Learning_with_Q_Learning.pdf">
+                        Q-Learning (Python)
+                    </a>
 
-		<hr>
+                    <a class="dropdown-item"
+                        href="https://github.com/Limegrass/Counterfactual-Regret-Minimization/blob/notes/Learning_to_Play_Poker_using_CounterFactual_Regret_Minimization.pdf">
+                        Counterfactual Regret Minimization (Python)
+                    </a>
 
-		<address>
-			James Ni
-		</address>
-	</body>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <b>Concurrent and Parallel</b>
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://github.com/Limegrass/BarnesHut-N-Body/blob/master/Final%20Project%20JN.pdf">Parallel Barnes-Hut (Java, MPI)</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item nav-link"
+                    href="https://limegrass.github.io/kanji_order">
+                    <b>Kanji Mnemonics</b>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item nav-link"
+                    href="https://github.com/Limegrass/config/master/vim/_vimrc">
+                    <b>vimrc</b>
+                </a>
+            </li>
+        </ul>
+
+        <div id="post-nav">
+        </div>
+
+        <hr>
+
+        <!-- Icon Links -->
+        <div class="container-fluid" >
+            <map name="github-map">
+                <area shape="circle" coords="55,55,55"
+                    href="https://github.com/Limegrass"
+                    alt="Link to GitHub profile"
+                    title="sorry for editting colors">
+                <img src="img/link-icons/github.png" class="link-icon"
+                    usemap="#github-map" alt="Link to GitHub profile">
+            </map>
+
+            <map name="lastfm-map">
+                <area shape="circle" coords="55,55,55"
+                    href="https://last.fm/user/Multipoke"
+                    alt="Link to Last.FM profile">
+                <img src="img/link-icons/lastfm.png" class="link-icon"
+                    usemap="#lastfm-map" alt="alt=Link to Last.FM profile">
+            </map>
+
+            <map name="steam-map">
+                <area shape="circle" coords="55,55,55"
+                    href="https://steamcommunity.com/id/Multipoke/"
+                    alt="Link to Steam profile">
+                <img src="img/link-icons/steam.png" class="link-icon"
+                    usemap="#steam-map" alt="Link to Steam profile">
+            </map>
+
+            <map name="manga-map">
+                <area shape="circle" coords="55,55,55"
+                    href="#"
+                    alt="Link to manga translation works">
+                <img src="img/link-icons/shizuku.png" class="link-icon"
+                    usemap="#manga-map" alt="Link to manga translation works">
+            </map>
+        </div>
+
+        <hr>
+        <script src=mobile-no-iframe.js></script>
+
+        <!-- Address -->
+        <address>
+        <a href="mailto:NiJames95@gmail.com">Contact</a>
+        </address>
+    </body>
 </html>
 <!-- TO DO
-	Left column with links (as icons)
-	Right column as an iFrame that opens the links
-
-	Work on responsiveness
+    Left column with links (as icons)
+    Right column as an iFrame that opens the links
+    Work on responsiveness
+    Decide if I should link manga translations or not
+    Soundboard-like page with mangacaps
+    Page with links to individual projects
+    iFrame only on Desktop. New page on mobile.
 -->

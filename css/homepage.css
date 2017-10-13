@@ -1,0 +1,47 @@
+* {
+    font-family: Calibri, Arial, Consolas, san-serif, Monospace;
+}
+
+#home-button {
+    font-style: bold;
+    font-family: Consolas;
+}
+
+body {
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img.link-icon {
+    max-width: 100px;
+    height: auto;
+    border: 0px;
+}
+
+.dropdown-menu{
+    background-color: #1a1a1a
+}
+
+.dropdown-item{
+    background-color: #1a1a1a
+    color: white
+}
+
+
+/*HTML5 new element support*/
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
